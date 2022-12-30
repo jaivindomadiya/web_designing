@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Datalix Lab</title>
+    <link rel="icon" type="image/x-icon" href="img/datalixlogo.png" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><img src="./img/datalixlogo.png" height="40px" width="100px" /></li>
+          <li><a href="index.html">Home</a></li>
+    </ul>
+    </nav>
+    <h1 id="joinush1">Application Form</h1>
+    <table>
+        <form>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" maxlength="30" name="fnm" pattern="[a-zA-Z]"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" maxlength="30" name="lnm" pattern="[a-zA-Z]"> </td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Mobile number</td>
+                <td><input type="text" maxlength="10" name="mo"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Male<input type="radio" name="gender"> 
+                Female<input type="radio" name="gender"></td>
+            </tr>
+            <tr>
+                <td>Adderss</td>
+                <td><textarea rows="5" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="city" maxlength="30" pattern="[-Za-z]"></td>
+            </tr>
+            <tr>
+                <td>Pincode</td>
+                <td><input type="text" name="pincode" maxlength="6"></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td><input type="text" name="country" maxlength="30" pattern="[A-Za-z]"></td>
+            </tr>
+            
+           
+            <tr>
+                <td>Applied For</td>
+                <td><input type="radio" name="role">Backend developer
+                    <input type="radio" name="role">frontend developer
+                    <input type="radio" name="role">Data Engineer
+                    <input type="radio" name="role">Python Developer</td>
+            </tr>
+            <tr>
+               <td> <input type="submit" name="sb"></td>                
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

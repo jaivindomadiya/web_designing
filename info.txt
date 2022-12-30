@@ -1,0 +1,3 @@
+. = class selector
+# = id selector
+tag is tag selector
